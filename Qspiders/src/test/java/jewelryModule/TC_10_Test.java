@@ -20,7 +20,7 @@ public class TC_10_Test extends BaseClass{
 		ListenerImplementation.logger.log(Status.INFO, "clicked on addtocart button");
 		jewelry.getLengthInCmTF().sendKeys("15");
 		ListenerImplementation.logger.log(Status.INFO, "Added Length");
-
+		System.out.println("gitgit");
 		jewelry.getAddToCartFinalButton().click();
 		ListenerImplementation.logger.log(Status.INFO, "clicked on addtocart button");
 
